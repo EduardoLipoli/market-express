@@ -31,6 +31,22 @@ export default defineConfig({
             purpose: "maskable",
           },
         ],
+        screenshots: [
+          {
+            src: "screenshot-mobile.png",
+            sizes: "390x844",
+            type: "image/png",
+            form_factor: "narrow",
+            label: "Interface Mobile do Market Express",
+          },
+          {
+            src: "screenshot-wide.png",
+            sizes: "1280x720",
+            type: "image/png",
+            form_factor: "wide",
+            label: "Interface Desktop do Market Express",
+          },
+        ],
       },
     }),
   ],
