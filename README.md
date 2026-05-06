@@ -1,16 +1,53 @@
-# React + Vite
+# 🛒 Market Express
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Market Express** é um assistente de compras inteligente, projetado com foco total em **usabilidade Mobile-First**.
 
-Currently, two official plugins are available:
+Desenvolvido com **React + Firebase**, o app funciona como um **PWA (Progressive Web App)**, permitindo instalação direta no smartphone com uma experiência semelhante à de um aplicativo nativo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Parte do portfólio da **Vizyon**, com foco em interfaces premium e alta performance.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📱 Funcionalidades
 
-## Expanding the ESLint configuration
+### 🧠 Listas Inteligentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Crie e gerencie múltiplas listas (Casa, Escritório, Churrasco, etc.) com cores personalizadas para identificação rápida.
+
+### 🎨 Categorias Customizáveis
+
+Crie, edite e organize categorias com cores e ícones da biblioteca **Lucide**.
+
+### 📦 Catálogo de Produtos Pessoal
+
+O app aprende com você: itens adicionados podem ser salvos e reutilizados em buscas futuras.
+
+### 🌙 Dark Mode Premium
+
+Interface em modo escuro, pensada para conforto visual e economia de bateria.
+
+### 📲 Navegação Nativa
+
+Experiência fluida com **bottom navigation** e transições inspiradas em apps iOS/Android.
+
+### ⚡ Instalação como App (PWA)
+
+- Splash screen
+- Ícone na tela inicial
+- Modo standalone (sem barra do navegador)
+
+### 🔄 Sincronização em Tempo Real
+
+Dados sincronizados automaticamente entre dispositivos com **Firebase Firestore**.
+
+---
+
+## 🛠️ Tecnologias
+
+- **Frontend:** React.js (Vite)
+- **Estilização:** Tailwind CSS
+- **Backend & Database:** Firebase Firestore
+- **Autenticação:** Firebase Auth
+- **Ícones:** Lucide React
+- **PWA:** vite-plugin-pwa
+- **Roteamento:** React Router v6
